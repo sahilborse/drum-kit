@@ -1,0 +1,63 @@
+body{
+    
+    background-color: rgb(221, 250, 0);
+}
+h1{
+    margin: 0;
+    margin-top: 0;
+    background-color: rgb(0, 254, 148);
+    font-weight: bolder;
+    font-size:3rem;
+    font-style: italic;
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+}
+button{
+    width: 10rem;
+    height: 10rem;
+    font-size: 5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    border-radius: 40%;
+    position:static;
+}
+.main-drum-container{
+    display:block;
+    padding: 1rem;
+    justify-items: center;
+    text-align: center;
+    margin-top: 10rem;
+    
+}
+footer{
+    display: block;
+    justify-self: end;
+    color: rgb(255, 11, 11);
+}
+.pressed{
+    opacity: 0.5;
+    transition: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+.w{
+    
+    background-size: cover;
+    
+    background-image: url(./kitImages/bdrum.jpeg);
+}
+.x{
+    background-size: cover;
+    background-image: url(./kitImages/bigdrum.jpeg);
+}
+.y{background-size: cover;
+    background-image: url(./kitImages/largeDrum.jpeg);
+}
+.z{background-size: cover;
+    background-image: url(./kitImages/lgDrum.jpeg);
+}
+.t{background-size: cover;
+
+    background-image: url(./kitImages/disc.jpeg);
+}
+.s{background-size: cover;
+    background-image: url(./kitImages/disc.jpeg);
+}
