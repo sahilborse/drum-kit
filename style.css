@@ -39,7 +39,7 @@ footer{
     transition: cubic-bezier(0.215, 0.610, 0.355, 1);
 }
 .w{
-    
+    color:white;
     background-size: cover;
     
     background-image: url(./kitImages/bdrum.jpeg);
